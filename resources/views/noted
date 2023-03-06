@@ -1,0 +1,959 @@
+<div id="how" class="container my-20 mx-auto px-4 md:px-12">
+    <div class="flex flex-wrap -mx-1 lg:-mx-4">
+      <!-- Column -->
+      <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/4">
+        <!-- Article -->
+        <article class="overflow-hidden rounded-lg shadow-lg  text-gray-800">
+          <img alt="Tulis"
+            class="block h-auto w-full lg:w-28 mx-auto my-10 transform transition hover:scale-125 duration-300 ease-in-out"
+            src="{{ asset('img/tulis.svg')}}" />
+          <header class="leading-tight p-2 md:p-4 text-center ">
+            <h1 class="text-lg font-bold">1. Tulis Laporan</h1>
+            <p class="text-grey-darker text-sm py-4">
+              Tulis laporan keluhan Anda dengan jelas.
+            </p>
+          </header>
+        </article>
+        <!-- END Article -->
+      </div>
+      <!-- END Column -->
+      <!-- Column -->
+      <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/4">
+        <!-- Article -->
+        <article class="overflow-hidden rounded-lg shadow-lg text-gray-800">
+          <img alt="Proses"
+            class="block h-auto w-full lg:w-28 mx-auto my-10 transform transition hover:scale-125 duration-300 ease-in-out"
+            src="{{ asset('img/processing.svg')}}" />
+          <header class="leading-tight p-2 md:p-4 text-center">
+            <h1 class="text-lg font-bold">2. Proses Verifikasi</h1>
+            <p class="text-grey-darker text-sm py-4">
+              Tunggu sampai laporan Anda di verifikasi.
+            </p>
+          </header>
+        </article>
+        <!-- END Article -->
+      </div>
+      <!-- END Column -->
+      <!-- Column -->
+      <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/4">
+        <!-- Article -->
+        <article class="overflow-hidden rounded-lg shadow-lg  text-gray-800">
+          <img alt="Ditindak"
+            class="block h-auto w-full lg:w-28 mx-auto my-10 transform transition hover:scale-125 duration-300 ease-in-out"
+            src="{{ asset('img/act.svg')}}" />
+          <header class="leading-tight p-2 md:p-4 text-center">
+            <h1 class="text-lg font-bold">3. Tindak Lanjut</h1>
+            <p class="text-grey-darker text-sm py-4">
+              Laporan Anda sedang dalam tindak lanjut.
+            </p>
+          </header>
+        </article>
+        <!-- END Article -->
+      </div>
+      <!-- END Column -->
+      <!-- Column -->
+      <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/4">
+        <!-- Article -->
+        <article class="overflow-hidden rounded-lg shadow-lg  text-gray-800">
+          <img alt="Selesai"
+            class="block h-auto w-full lg:w-28 mx-auto my-10 transform transition hover:scale-125 duration-300 ease-in-out"
+            src="{{ asset('img/verification.svg')}}" />
+          <header class="leading-tight p-2 md:p-4 text-center">
+            <h1 class="text-lg font-bold">4. Selesai</h1>
+            <p class="text-grey-darker text-sm py-4">
+              Laporan pengaduan telah selesai ditindak.
+            </p>
+          </header>
+        </article>
+        <!-- END Article -->
+      </div>
+      <!-- END Column -->
+    </div>
+  </div>
+
+<!-- Footer -->
+<footer class="bg-gray-100">
+    <div class="container mx-auto px-8">
+      <div class="w-full flex flex-col md:flex-row py-6">
+        <div class="flex items-start flex-shrink-0 text-black mr-6">
+          <img src="https://img.icons8.com/external-icongeek26-outline-colour-icongeek26/64/000000/external-announcement-essentials-icongeek26-outline-colour-icongeek26.png" alt=""
+            class="transform transition hover:scale-125 duration-300 ease-in-out" />
+          <span class="font-bold tracking-wider text-xl">
+            &nbsp PENGMASLINE</span>
+        </div>
+        <div class="flex-1">
+          <p class="uppercase text-gray-500 md:mb-6">Links</p>
+          <ul class="list-reset mb-6">
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">FAQ</a>
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Help</a>
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Support</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex-1">
+          <p class="uppercase text-gray-500 md:mb-6">Legal</p>
+          <ul class="list-reset mb-6">
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Terms</a>
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Privacy</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex-1">
+          <p class="uppercase text-gray-500 md:mb-6">Social</p>
+          <ul class="list-reset mb-6">
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Facebook</a>
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Linkedin</a>
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Twitter</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex-1">
+          <p class="uppercase text-gray-500 md:mb-6">Company</p>
+          <ul class="list-reset mb-6">
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Official Blog</a>
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">About Us</a>
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <nav class="flex items-center justify-between flex-wrap bg-gradient-to-r from-yellow-500 via-red-500 to-pink-500 p-7 px-20">
+    <div class="flex items-center flex-shrink-0 text-gray-50 mr-6">
+      <img src="https://img.icons8.com/external-icongeek26-outline-colour-icongeek26/64/000000/external-announcement-essentials-icongeek26-outline-colour-icongeek26.png" alt=""
+        class="transform transition hover:scale-125 duration-300 ease-in-out" />
+      <span class="font-bold tracking-wider text-xl">
+        &nbsp PENGMASLINE</span>
+    </div>
+    <div class="block lg:hidden">
+      <button
+        class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+        <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <title>Menu</title>
+          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+        </svg>
+      </button>
+    </div>
+    <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto text-center">
+      <!-- <div class="text-md lg:flex-grow">
+        <a href="/" class="block mt-4 lg:inline-block lg:mt-0 text-black mr-4">
+          Home
+        </a>
+        <a href="#how" class="block mt-4 lg:inline-block lg:mt-0 text-black mr-4">
+          Tata Cara
+        </a>
+      </div> -->
+ 
+      <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
+          <ul class="list-reset lg:flex justify-end flex-1 items-center">
+            <li class="mr-3">
+              <a class="inline-block py-2 px-4 text-white font-bold no-underline" href="/">Home</a>
+            </li>
+            <li class="mr-3">
+              <a class="inline-block text-white no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#how">Tatacara</a>
+            </li>
+          </ul>
+        <!-- <button
+          class="text-black font-normal rounded-md py-3 border-black px-4 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+          <a href="{{ url('login')}}">Masuk</a>
+        </button> -->
+        <button
+          class="mx-auto lg:mx-0 hover:underline bg-white text-black font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+          <a href="{{ url('register')}}">Masuk/Daftar</a>
+        </button>
+      </div>
+    </div>
+  </nav>
+  
+    <!-- How -->
+    <div id="how" class="container my-20 mx-auto px-4 md:px-12">
+        <div class="flex flex-wrap -mx-1 lg:-mx-4">
+      <!-- Start How It Works Block -->      
+      <section class="py-12 lg:py-16 xl:py-28">
+                <div class="container mx-auto px-5">
+                    <div class="grid gap-6 lg:gap-10 xl:grid-cols-3">
+                        <div class="space-y-2 lg:space-y-4">
+                            <h2 class="text-2xl font-black sm:text-3xl">Tatacara</h2>
+                            <p class="w-full sm:w-1/2 xl:w-80 text-gray-600 md:text-lg">Voluptates aliquid est labore dignissimos similique incidunt porro temporibus. Omnis commodi dolorem.</p>
+                        </div>
+                        <div class="grid gap-6 sm:grid-cols-2 lg:gap-10 xl:col-span-2">
+                            <div class="relative bg-white p-5 rounded-xl shadow space-y-2 transition-shadow duration-200 hover:shadow-lg md:p-8"><!-- Start Step Box -->
+                                <dt>
+                                    <div class="absolute flex items-center justify-center h-12 w-12 rounded-full bg-blue-500 text-white">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" /></svg>
+                                    </div>
+                                    <p class="ml-16 text-xl font-medium">1. Tulis Laporan</p>
+                                </dt>
+                                <dd class="ml-16 text-gray-500">Tulis laporan keluhan Anda dengan jelas.</dd>
+                            </div><!-- End Step Box -->
+                            <div class="relative bg-white p-5 rounded-xl shadow space-y-2 transition-shadow duration-200 hover:shadow-lg md:p-8"><!-- Start Step Box -->
+                                <dt>
+                                    <div class="absolute flex items-center justify-center h-12 w-12 rounded-full bg-blue-500 text-white">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" /></svg>
+                                    </div>
+                                    <p class="ml-16 text-xl font-medium">2. Proses Verifikasi</p>
+                                </dt>
+                                <dd class="ml-16 text-gray-500">Tunggu sampai laporan Anda di verifikasi.</dd>
+                            </div><!-- End Step Box -->
+                            <div class="relative bg-white p-5 rounded-xl shadow space-y-2 transition-shadow duration-200 hover:shadow-lg md:p-8"><!-- Start Step Box -->
+                                <dt>
+                                    <div class="absolute flex items-center justify-center h-12 w-12 rounded-full bg-blue-500 text-white">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" /></svg>
+                                    </div>
+                                    <p class="ml-16 text-xl font-medium">3. Tindak Lanjut</p>
+                                </dt>
+                                <dd class="ml-16 text-gray-500">Laporan Anda sedang dalam tindak lanjut.</dd>
+                            </div><!-- End Step Box -->
+                            <div class="relative bg-white p-5 rounded-xl shadow space-y-2 transition-shadow duration-200 hover:shadow-lg md:p-8"><!-- Start Step Box -->
+                                <dt>
+                                    <div class="absolute flex items-center justify-center h-12 w-12 rounded-full bg-blue-500 text-white">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+                                    </div>
+                                    <p class="ml-16 text-xl font-medium">4. Selesai</p>
+                                </dt>
+                                <dd class="ml-16 text-gray-500">Laporan pengaduan telah selesai ditindak.</dd>
+                            </div><!-- End Step Box -->
+                        </div>
+                    </div>
+                </div>
+            </section><!-- End How It Works Block -->
+    
+            <section class="pt-20 pb-48">
+            <div class="container mx-auto px-4">
+              <div class="flex flex-wrap justify-center text-center mb-24">
+                <div class="w-full lg:w-6/12 px-4">
+                  <h2 class="text-4xl font-semibold">Here are our heroes</h2>
+                  <p class="text-lg leading-relaxed m-4 text-gray-600">
+                    According to the National Oceanic and Atmospheric
+                    Administration, Ted, Scambos, NSIDClead scentist, puts the
+                    potentially record maximum.
+                  </p>
+                </div>
+              </div>
+              <div class="flex flex-wrap">
+                <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                  <div class="px-6">
+                    <img
+                      alt="..."
+                      src="./assets/img/team-1-800x800.jpg"
+                      class="shadow-lg rounded-full max-w-full mx-auto"
+                      style="max-width: 120px;"
+                    />
+                    <div class="pt-6 text-center">
+                      <h5 class="text-xl font-bold">Ryan Tompson</h5>
+                      <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                        Web Developer
+                      </p>
+                      <div class="mt-6">
+                        <button
+                          class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                          type="button"
+                        >
+                          <i class="fab fa-twitter"></i></button
+                        ><button
+                          class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                          type="button"
+                        >
+                          <i class="fab fa-facebook-f"></i></button
+                        ><button
+                          class="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                          type="button"
+                        >
+                          <i class="fab fa-dribbble"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                  <div class="px-6">
+                    <img
+                      alt="..."
+                      src="./assets/img/team-2-800x800.jpg"
+                      class="shadow-lg rounded-full max-w-full mx-auto"
+                      style="max-width: 120px;"
+                    />
+                    <div class="pt-6 text-center">
+                      <h5 class="text-xl font-bold">Romina Hadid</h5>
+                      <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                        Marketing Specialist
+                      </p>
+                      <div class="mt-6">
+                        <button
+                          class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                          type="button"
+                        >
+                          <i class="fab fa-google"></i></button
+                        ><button
+                          class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                          type="button"
+                        >
+                          <i class="fab fa-facebook-f"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                  <div class="px-6">
+                    <img
+                      alt="..."
+                      src="./assets/img/team-3-800x800.jpg"
+                      class="shadow-lg rounded-full max-w-full mx-auto"
+                      style="max-width: 120px;"
+                    />
+                    <div class="pt-6 text-center">
+                      <h5 class="text-xl font-bold">Alexa Smith</h5>
+                      <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                        UI/UX Designer
+                      </p>
+                      <div class="mt-6">
+                        <button
+                          class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                          type="button"
+                        >
+                          <i class="fab fa-google"></i></button
+                        ><button
+                          class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                          type="button"
+                        >
+                          <i class="fab fa-twitter"></i></button
+                        ><button
+                          class="bg-gray-800 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                          type="button"
+                        >
+                          <i class="fab fa-instagram"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                  <div class="px-6">
+                    <img
+                      alt="..."
+                      src="./assets/img/team-4-470x470.png"
+                      class="shadow-lg rounded-full max-w-full mx-auto"
+                      style="max-width: 120px;"
+                    />
+                    <div class="pt-6 text-center">
+                      <h5 class="text-xl font-bold">Jenna Kardi</h5>
+                      <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                        Founder and CEO
+                      </p>
+                      <div class="mt-6">
+                        <button
+                          class="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                          type="button"
+                        >
+                          <i class="fab fa-dribbble"></i></button
+                        ><button
+                          class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                          type="button"
+                        >
+                          <i class="fab fa-google"></i></button
+                        ><button
+                          class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                          type="button"
+                        >
+                          <i class="fab fa-twitter"></i></button
+                        ><button
+                          class="bg-gray-800 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                          type="button"
+                        >
+                          <i class="fab fa-instagram"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+    
+          <footer class="relative bg-gray-300 pt-8 pb-6">
+    
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap">
+          <div class="w-full lg:w-5/12 px-4">
+            <h4 class="text-3xl font-semibold">Let's keep in touch!</h4>
+            <h5 class="text-lg mt-0 mb-2 text-gray-700">
+              Find us on any of these platforms, we respond 1-2 business days.
+            </h5>
+            <div class="mt-6">
+              <button
+                class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                type="button"
+              >
+                <i class="flex fab fa-twitter"></i></button
+              ><button
+                class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                type="button"
+              >
+                <i class="flex fab fa-facebook-square"></i></button
+              ><button
+                class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                type="button"
+              >
+                <i class="flex fab fa-dribbble"></i></button
+              ><button
+                class="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                type="button"
+              >
+                <i class="flex fab fa-github"></i>
+              </button>
+            </div>
+            <div class="text-gray-600 text-sm py-1 mt-4">
+              Copyright © 2021
+              <a
+                href="/"
+                class="text-gray-600 hover:text-gray-900"
+                >Company-XXX</a
+              > &nbsp; • &nbsp; <a href="https://icons8.com/icon/97693/cookie" target="_blank" rel="noreferrer">Cookie icon by Icons8</a>
+            </div>
+          </div>
+          <div class="w-full lg:w-6/12 px-4">
+            <div class="flex flex-wrap items-top mb-6 mt-4">
+              <div class="w-full lg:w-4/12 md:w-6/12 px-0 ml-auto">
+                <span
+                  class="block uppercase text-gray-600 text-sm font-semibold mb-2"
+                  >Useful Links</span
+                >
+                <ul class="list-unstyled">
+                  <li>
+                    <a
+                      class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                      href="/about"
+                      >About Us</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                      href="/blog"
+                      >Blog</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                      href="https://www.github.com/abhinavs"
+                      >Github</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="w-full lg:w-4/12 md:w-6/12 mt-4 sm:mt-0 md:px-4">
+                <span
+                  class="block uppercase text-gray-600 text-sm font-semibold mb-2"
+                  >Other Resources</span
+                >
+                <ul class="list-unstyled">
+                  <li>
+                    <a
+                      class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                      href="https://github.com/abhinavs/cookie/blob/master/LICENSE.md"
+                      >MIT License</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                      href="/terms"
+                      >Terms &amp; Conditions</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                      href="/privacy-policy"
+                      >Privacy Policy</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                      href="/contact-us"
+                      >Contact Us</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="my-6 border-gray-400" />
+        <div
+          class="flex flex-wrap items-center md:justify-between justify-center"
+        >
+          <div class="w-full px-4 mx-auto text-center">
+            <div class="text-sm text-gray-600">
+                Powered by <a class="hover:text-indigo-600 font-semibold" href="https://www.soopr.co" target="_blank" rel="noreferrer">Soopr</a>
+                &nbsp;
+                •
+                &nbsp;
+                Theme&nbsp;<a class="hover:text-indigo-600 font-semibold" href="https://github.com/abhinavs/cookie" target="_blank" rel="noreferrer">Cookie</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Footer -->
+  <footer class="bg-gray-100">
+    <div class="container mx-auto px-8">
+      <div class="w-full flex flex-col md:flex-row py-6">
+        <div class="flex items-start flex-shrink-0 text-black mr-6">
+          <img src="https://img.icons8.com/external-icongeek26-outline-colour-icongeek26/64/000000/external-announcement-essentials-icongeek26-outline-colour-icongeek26.png" alt=""
+            class="transform transition hover:scale-125 duration-300 ease-in-out" />
+          <span class="font-bold tracking-wider text-xl">
+            &nbsp PENGMASLINE</span>
+        </div>
+        <div class="flex-1">
+          <p class="uppercase text-gray-500 md:mb-6">Links</p>
+          <ul class="list-reset mb-6">
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">FAQ</a>
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Help</a>
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Support</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex-1">
+          <p class="uppercase text-gray-500 md:mb-6">Legal</p>
+          <ul class="list-reset mb-6">
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Terms</a>
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Privacy</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex-1">
+          <p class="uppercase text-gray-500 md:mb-6">Social</p>
+          <ul class="list-reset mb-6">
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Facebook</a>
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Linkedin</a>
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Twitter</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex-1">
+          <p class="uppercase text-gray-500 md:mb-6">Company</p>
+          <ul class="list-reset mb-6">
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Official Blog</a>
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">About Us</a>
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    <section class="pt-20 pb-48">
+        <div class="container mx-auto px-4">
+          <div class="flex flex-wrap justify-center text-center mb-24">
+            <div class="w-full lg:w-6/12 px-4">
+              <h2 class="text-4xl font-semibold">Here are our heroes</h2>
+              <p class="text-lg leading-relaxed m-4 text-gray-600">
+                According to the National Oceanic and Atmospheric
+                Administration, Ted, Scambos, NSIDClead scentist, puts the
+                potentially record maximum.
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-wrap">
+            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+              <div class="px-6">
+                <img
+                  alt="..."
+                  src="./assets/img/team-1-800x800.jpg"
+                  class="shadow-lg rounded-full max-w-full mx-auto"
+                  style="max-width: 120px;"
+                />
+                <div class="pt-6 text-center">
+                  <h5 class="text-xl font-bold">Ryan Tompson</h5>
+                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                    Web Developer
+                  </p>
+                  <div class="mt-6">
+                    <button
+                      class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <i class="fab fa-twitter"></i></button
+                    ><button
+                      class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <i class="fab fa-facebook-f"></i></button
+                    ><button
+                      class="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <i class="fab fa-dribbble"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+              <div class="px-6">
+                <img
+                  alt="..."
+                  src="./assets/img/team-2-800x800.jpg"
+                  class="shadow-lg rounded-full max-w-full mx-auto"
+                  style="max-width: 120px;"
+                />
+                <div class="pt-6 text-center">
+                  <h5 class="text-xl font-bold">Romina Hadid</h5>
+                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                    Marketing Specialist
+                  </p>
+                  <div class="mt-6">
+                    <button
+                      class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <i class="fab fa-google"></i></button
+                    ><button
+                      class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <i class="fab fa-facebook-f"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+              <div class="px-6">
+                <img
+                  alt="..."
+                  src="./assets/img/team-3-800x800.jpg"
+                  class="shadow-lg rounded-full max-w-full mx-auto"
+                  style="max-width: 120px;"
+                />
+                <div class="pt-6 text-center">
+                  <h5 class="text-xl font-bold">Alexa Smith</h5>
+                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                    UI/UX Designer
+                  </p>
+                  <div class="mt-6">
+                    <button
+                      class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <i class="fab fa-google"></i></button
+                    ><button
+                      class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <i class="fab fa-twitter"></i></button
+                    ><button
+                      class="bg-gray-800 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <i class="fab fa-instagram"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+              <div class="px-6">
+                <img
+                  alt="..."
+                  src="./assets/img/team-4-470x470.png"
+                  class="shadow-lg rounded-full max-w-full mx-auto"
+                  style="max-width: 120px;"
+                />
+                <div class="pt-6 text-center">
+                  <h5 class="text-xl font-bold">Jenna Kardi</h5>
+                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                    Founder and CEO
+                  </p>
+                  <div class="mt-6">
+                    <button
+                      class="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <i class="fab fa-dribbble"></i></button
+                    ><button
+                      class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <i class="fab fa-google"></i></button
+                    ><button
+                      class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <i class="fab fa-twitter"></i></button
+                    ><button
+                      class="bg-gray-800 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <i class="fab fa-instagram"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+<!-- login -->
+      <x-auth-card>
+        
+        <x-slot name="logo">
+            <a href="/">
+                <img src="https://img.icons8.com/external-icongeek26-outline-colour-icongeek26/64/000000/external-announcement-essentials-icongeek26-outline-colour-icongeek26.png"/>
+            </a>
+        </x-slot>
+
+        <!-- Session Status -->
+        <x-auth-session-status class="mb-4" :status="session('status')" />
+
+        <!-- Validation Errors -->
+        <x-auth-validation-errors class="mb-4" :errors="$errors" />
+        <div class="flex items-center justify-end mt-2 mb-2">
+        <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('register') }}">
+                    {{ __('Belum punya akun?') }}
+                </a>
+        </div>
+       
+
+        <form method="POST" action="{{ route('login') }}">
+            
+            @csrf
+
+            <!-- Email Address -->
+            <div>
+                <x-label for="email" :value="__('Email')" />
+
+                <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus />
+            </div>
+
+            <!-- Password -->
+            <div class="mt-4">
+                <x-label for="password" :value="__('Password')" />
+
+                <x-input id="password" class="block mt-1 w-full"
+                                type="password"
+                                name="password"
+                                required autocomplete="current-password" />
+            </div>
+
+            <!-- Remember Me -->
+            <div class="block mt-4">
+                <label for="remember_me" class="inline-flex items-center">
+                    <input id="remember_me" type="checkbox" class="rounded border-gray-300 text-indigo-600 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" name="remember">
+                    <span class="ml-2 text-sm text-gray-600">{{ __('Remember me') }}</span>
+                </label>
+            </div>
+
+            <div class="flex items-center justify-end mt-4">
+                @if (Route::has('password.request'))
+                    <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('password.request') }}">
+                        {{ __('Forgot your password?') }}
+                    </a>
+                @endif
+
+                
+
+                <x-button class="ml-3  bg-blue-500 text-white font-bold rounded-md my-3 py-3 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:bg-blue-500 hover:scale-105 duration-300 ease-in-out">
+                    {{ __('Login') }}
+                </x-button>
+            </div>
+        </form>
+        
+    </x-auth-card>
+
+    <!-- regis -->
+    <x-auth-card>
+      <x-slot name="logo">
+          <a href="/">
+          <img src="https://img.icons8.com/external-icongeek26-outline-colour-icongeek26/64/000000/external-announcement-essentials-icongeek26-outline-colour-icongeek26.png"/>
+          </a>
+      </x-slot>
+
+      <!-- Validation Errors -->
+      <x-auth-validation-errors class="mb-4" :errors="$errors" />
+
+      <form method="POST" action="{{ route('register') }}">
+          @csrf
+
+          <!-- NIK -->
+          <div>
+              <x-label for="nik" :value="__('NIK')" />
+
+              <x-input id="nik" class="block mt-1 w-full" type="text" name="nik" :value="old('nik')" required autofocus />
+          </div>
+
+          <!-- Name -->
+          <div class="mt-4">
+              <x-label for="name" :value="__('Name')" />
+
+              <x-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus />
+          </div>
+
+          <!-- Email Address -->
+          <div class="mt-4">
+              <x-label for="email" :value="__('Email')" />
+
+              <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required />
+          </div>
+
+          <!-- Phone -->
+          <div class="mt-4">
+              <x-label for="phone" :value="__('No. HP')" />
+
+              <x-input id="phone" class="block mt-1 w-full" type="text" name="phone" :value="old('phone')" required />
+              <p class="text-grey text-xs mt-1">Masukkan nomor yang bisa dihubungi</p>
+              
+          </div>
+
+          <!-- Password -->
+          <div class="mt-4">
+              <x-label for="password" :value="__('Password')" />
+
+              <x-input id="password" class="block mt-1 w-full"
+                              type="password"
+                              name="password"
+                              required autocomplete="new-password" />
+          </div>
+
+          <!-- Confirm Password -->
+          <div class="mt-4">
+              <x-label for="password_confirmation" :value="__('Confirm Password')" />
+
+              <x-input id="password_confirmation" class="block mt-1 w-full"
+                              type="password"
+                              name="password_confirmation" required />
+          </div>
+
+          <div class="flex items-center justify-end mt-4">
+              <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('login') }}">
+                  {{ __('Already registered?') }}
+              </a>
+
+              <x-button class="ml-3 bg-blue-500 text-white font-bold rounded-md my-3 py-3 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:bg-blue-500 hover:scale-105 duration-300 ease-in-out">
+                  {{ __('Register') }}
+              </x-button>
+              
+              
+          </div>
+      </form>
+  </x-auth-card>
+
+  <!-- forgot -->
+  <x-auth-card>
+    <x-slot name="logo">
+        <a href="/">
+            <img src="https://img.icons8.com/external-icongeek26-outline-colour-icongeek26/64/000000/external-announcement-essentials-icongeek26-outline-colour-icongeek26.png"/>
+        </a>
+    </x-slot>
+
+    <div class="mb-4 text-sm text-gray-600">
+        {{ __('Forgot your password? No problem. Just let us know your email address and we will email you a password reset link that will allow you to choose a new one.') }}
+    </div>
+
+    <!-- Session Status -->
+    <x-auth-session-status class="mb-4" :status="session('status')" />
+
+    <!-- Validation Errors -->
+    <x-auth-validation-errors class="mb-4" :errors="$errors" />
+
+    <form method="POST" action="{{ route('password.email') }}">
+        @csrf
+
+        <!-- Email Address -->
+        <div>
+            <x-label for="email" :value="__('Email')" />
+
+            <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus />
+        </div>
+
+        <div class="flex items-center justify-end mt-4">
+       
+            <x-button class=" bg-blue-500 text-white font-bold rounded-md my-3 py-3 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:bg-blue-500 hover:scale-105 duration-300 ease-in-out">
+                 {{ __('Email Password Reset Link') }}
+            </x-button>
+        </div>
+    </form>
+</x-auth-card>
+       <!-- Validation Errors -->
+       <x-auth-validation-errors class="mb-4" :errors="$errors" />
+
+       <form method="POST" action="{{ route('password.update') }}">
+           @csrf
+
+           <!-- Password Reset Token -->
+           <input type="hidden" name="token" value="{{ $request->route('token') }}">
+
+           <!-- Email Address -->
+           <div>
+               <x-label for="email" :value="__('Email')" />
+
+               <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email', $request->email)" required autofocus />
+           </div>
+
+           <!-- Password -->
+           <div class="mt-4">
+               <x-label for="password" :value="__('Password')" />
+
+               <x-input id="password" class="block mt-1 w-full" type="password" name="password" required />
+           </div>
+
+           <!-- Confirm Password -->
+           <div class="mt-4">
+               <x-label for="password_confirmation" :value="__('Confirm Password')" />
+
+               <x-input id="password_confirmation" class="block mt-1 w-full"
+                                   type="password"
+                                   name="password_confirmation" required />
+           </div>
+
+           <div class="flex items-center justify-end mt-4">
+               <x-button>
+                   {{ __('Reset Password') }}
+               </x-button>
+           </div>
+       </form>
